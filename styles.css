@@ -1,0 +1,417 @@
+/* Reset some default styles */
+
+*{
+  padding:0px;
+  margin:0px;
+}
+.stretch-card>.card {
+  width: 100%;
+  min-width: 100%
+}
+
+body {
+  background-color: #f9f9fa
+}
+
+.flex {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto
+}
+
+@media (max-width:991.98px) {
+  .padding {
+      padding: 1.5rem
+  }
+}
+
+@media (max-width:767.98px) {
+  .padding {
+      padding: 1rem
+  }
+}
+
+.padding {
+  padding: 3rem
+}
+
+.card {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -ms-box-shadow: none
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  
+  border-radius: 0;
+}
+
+.card .card-body {
+  padding: 1.25rem 1.75rem
+}
+
+.card .card-title {
+  color: #000000;
+  margin-bottom: 0.625rem;
+  text-transform: capitalize;
+  font-size: 0.875rem;
+  font-weight: 500
+}
+
+.card .card-description {
+  margin-bottom: .875rem;
+  font-weight: 400;
+  color: #76838f
+}
+.btn.btn-social-icon{
+ width: 50px;
+ height: 50px;
+ padding: 0;
+}
+.template-demo > .btn{
+ margin-right: 0.5rem !important;
+}
+
+.template-demo{
+ margin-top: 0.5rem !important;
+}
+
+.btn.btn-rounded {
+ border-radius: 50px;
+}
+
+
+.btn-outline-facebook {
+ border: 1px solid #3b579d;
+ color: #3b579d;
+}
+
+.btn-outline-facebook:hover {
+ background: #3b579d;
+ color: #ffffff;
+}
+
+.btn-outline-youtube {
+ border: 1px solid #e52d27;
+ color: #e52d27;
+}
+
+.btn-outline-twitter {
+ border: 1px solid #2caae1;
+ color: #2caae1;
+}
+
+.btn-outline-dribbble {
+ border: 1px solid #ea4c89;
+ color: #ea4c89;
+}
+
+.btn-outline-linkedin {
+ border: 1px solid #0177b5;
+ color: #0177b5;
+}
+
+.btn-outline-instagram {
+ border: 1px solid #dc4a38;
+ color: #dc4a38;
+}
+
+.btn-outline-twitter:hover {
+ background: #2caae1;
+ color: #ffffff;
+}
+
+.btn-outline-linkedin:hover {
+ background: #0177b5;
+ color: #ffffff;
+}
+
+.btn-outline-youtube:hover {
+ background: #e52d27;
+ color: #ffffff;
+}
+
+.btn-outline-instagram:hover{
+ background: #e52d27;
+ color: #ffffff;
+}
+
+
+/*Button cover*/
+
+.btn-facebook {
+ background: #3b579d;
+ color: #ffffff;
+}
+
+.btn-youtube {
+ background: #e52d27;
+ color: #ffffff;
+}
+
+.btn-twitter {
+ background: #2caae1;
+ color: #ffffff;
+}
+.btn-dribbble {
+ background: #ea4c89;
+ color: #ffffff;
+}
+.btn-linkedin {
+ background: #0177b5;
+ color: #ffffff;
+}
+.btn-instagram {
+ background: #dc4a38;
+ color: #ffffff;
+}
+
+.btn-facebook:hover, .btn-facebook:focus {
+ background: #2d4278;
+ color: #ffffff;
+}
+
+.btn-youtube:hover, .btn-youtube:focus {
+ background: #c21d17;
+ color: #ffffff;
+}
+.btn-twitter:hover, .btn-twitter:focus {
+ background: #1b8dbf;
+ color: #ffffff;
+}
+.btn-dribbble:hover, .btn-dribbble:focus {
+ background: #e51e6b;
+ color: #ffffff;
+}
+
+.btn-linkedin:hover, .btn-linkedin:focus {
+ background: #015682;
+ color: #ffffff;
+}
+
+.btn-instagram:hover, .btn-instagram:focus {
+ background: #bf3322;
+ color: #ffffff;
+}
+
+.text1{
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Lobster', cursive;
+  font-size: 200%;
+  color:#071952;
+}
+
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #CCCCFF;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  nav li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    border-bottom: 2px solid #fff;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .social-icons {
+    margin-top: 1rem;
+  }
+  
+  .social-icons a {
+    margin-right: 1rem;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* Styles for logo and animation */
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  /* Animation */
+  .animated-text {
+    animation: fadeInUp 1.5s ease-in-out;
+    opacity: 0;
+  }
+  #button{
+    margin-bottom: 2%;
+    width: 35%;
+    background-color: #333;
+    border-color: cadetblue;
+    margin-left: 30%;
+  }
+ 
+  #our-work{
+    height: 100%;
+  width: 100%;
+  display:inline-block;
+  }
+  
+/* Additional styles for the Our Work div with a full-width background image */
+#our-work.bg-image {
+  background-image: url('image/work.jpg'); /* Replace 'our-work-background-image.jpg' with your actual image URL */
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0; /* Add some padding to the content */
+  width: 100%; /* Set the width to 100% to occupy the full width of the screen */
+  border: 10px solid #FFD700; /* Add a 10px golden color border */
+  border-radius: 20px; /* Set the border radius to 20px for a rounded border */
+}
+
+#our-work .container {
+  max-width: 100%; /* Set the container width to 100% to make it full-width */
+  padding: 0 15px; /* Add horizontal padding to the container to maintain content spacing */
+}
+
+/* bg video */
+#home.bg-video {
+  position: relative;
+  overflow: hidden;
+  height: 100vh; /* Set the height of the div to cover the full viewport height */
+  border: 10px solid #FFD700; /* Add a 10px golden color border */
+  border-radius: 20px; /* Set the border radius to 20px for a rounded border */
+}
+
+#home video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px; /* Apply the same border radius to the video to match the div's border */
+}
+
+#home .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+}
+
+#home .container {
+  position: relative;
+  z-index: 1;
+}
+
+  
+  
+  @keyframes fadeInUp {
+    0% {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    /* Adjust header layout for smaller screens */
+    header {
+      text-align: center;
+    }
+    
+    nav ul {
+      display: none;
+      padding: 1rem 0;
+    }
+  
+    .menu-icon {
+      display: block;
+      width: 30px;
+      height: 30px;
+      background: url('menu-icon.png') center/cover no-repeat;
+      cursor: pointer;
+    }
+  
+    .menu.active ul {
+      display: block;
+    }
+  }
+  @keyframes jumpIn {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .animate__animated.animate__fadeInUp {
+    opacity: 0;
+    display: inline-block;
+  }
+  
+  /* Apply the jumpIn animation to each character of the heading */
+  .animate__animated.animate__fadeInUp span {
+    animation-name: jumpIn;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-duration: 1.2s;
+    display: inline-block;
+  }
+  
